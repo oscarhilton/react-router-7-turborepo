@@ -1,5 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+import { Button } from "@repo/ui/button";
 
 export function Welcome() {
   return (
@@ -35,6 +36,7 @@ export function Welcome() {
                   >
                     {icon}
                     {text}
+                    <Button className="foobar" appName="React-router">Hello world</Button>
                   </a>
                 </li>
               ))}
